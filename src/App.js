@@ -1,28 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import Fcomponent from './Fcomponent';
-import Rowcomponent from './Rowcomponent';
+// import Fcomponent from './demo/Fcomponent';
+// import Rowcomponent from './demo/Rowcomponent';
+import Product from './products/Product';
+import ToDo from './todo/ToDo';
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Fcomponent name = 'Aram' />
-        <Rowcomponent />
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ToDo /> <br />
+      
+        <Product name="Bananas" price="1" description="Fresh bananas from Ecuador" />
+        <Product name="Apricot" price="1.5" description="Sweet apricots from Armenia" />
+
     </div>
   );
 }

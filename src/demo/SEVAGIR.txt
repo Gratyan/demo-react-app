@@ -1,0 +1,21 @@
+      Hanel em app.js-i div-ic heto
+      
+                <header className="App-header">
+                
+                    {/* <Fcomponent name='Aram' />
+                    <Rowcomponent /> */}
+                    <Product name="Bananas" price="1" description="Fresh bananas from Ecuador" />
+                    <Product name="Apricot" price="1.5" description="Sweet apricots from Armenia" />
+                    <img src={logo} className="App-logo" alt="logo" />
+                    <p>
+                    Edit <code>src/App.js</code> and save to reload.
+                    </p>
+                    <a
+                    className="App-link"
+                    href="https://reactjs.org"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >
+                    Learn React
+                    </a>
+                </header>
